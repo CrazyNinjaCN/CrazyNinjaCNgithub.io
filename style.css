@@ -1,0 +1,147 @@
+@font-face {
+    font-family: "Firenight-Regular";
+    src:url(fonts/Firenight-regular.otf);
+}
+@font-face {
+    font-family: "Makan Hati Cyrillic-Regular";
+    src:url(fonts/MakanHatiCyrillic.otf);
+}
+@font-face {
+    font-family: "NtSomic-Regular";
+    src:url(fonts/NTSomic-Regular.otf);
+}
+@font-face {
+    font-family: "NtSomic-Bold";
+    src:url(fonts/NTSomic-Bold.otf);
+}
+@font-face {
+    font-family: "NtSomic-Medium";
+    src:url(fonts/NTSomic-Medium.otf);
+    font-style: normal;
+    font-weight: 1 1000;
+    }
+
+    /* Media */
+@media (min-width: 1600px){
+    .mf-1{
+        font-size: 112%;
+    }
+    .mf-2{
+    font-size: 150%;
+    }
+    .mf-3{
+        font-size: 135%;
+    }
+    .mf-4{
+        font-size: 107%;
+    }
+    .mf-5{
+        font-size: 180%;
+    }
+    .mf-6{
+        font-size: 90%;
+    }
+    .mf-7{
+        font-size: 140%;
+    }
+    .mf-8{
+        font-size: 140%;
+    }
+    .mf-9{
+        font-size: 140%;
+    }
+}
+@media (min-width: 1200px) and (max-width: 1599px){
+    .mf-1{
+        font-size: 86%;
+    }
+    .mf-2{
+        font-size: 120%;
+    }
+    .mf-3{
+        font-size: 112%;
+    }
+    .mf-4{
+        font-size: 92%;
+    }
+    .mf-5{
+        font-size: 160%;
+    }
+    .mf-6{
+        font-size: 90%;
+    }
+    .mf-7{
+        font-size: 145%;
+    }
+    .mf-8{
+        font-size: 225%;
+    }
+    .mf-9{
+        font-size: 140%;
+    }
+}
+@media (max-width: 1199px){
+    .mf-1{
+        font-size: 68%;
+    }
+    .mf-2{
+        font-size: 68%;
+    }
+    .mf-3{
+        font-size: 98%;
+    }
+    .mf-4{
+        font-size: 61%;
+    }
+    .mf-5{
+        font-size: 85%;
+    }
+    .mf-6{
+        font-size: 90%;
+    }
+    .mf-7{
+        font-size: 140%;
+    }
+    .mf-8{
+        font-size: 155%;
+        margin-top: 0%!important;
+    }
+    .mf-9{
+        font-size: 140%;
+    }
+}
+
+.mf-1{
+    font-size: 1vw;
+}
+.mf-2{
+    font-size: 1.29vw;
+}
+.mf-3{
+    font-size: 0.8vw;
+}
+.mf-4{
+    font-size: 1vw;
+}
+.mf-5{
+    /* font-size: 1.8vw; */
+}
+.mf-6{
+    font-size: 0.82vw;
+}
+.mf-7{
+}
+.mf-8{
+    /* font-size: 2.5vw; */
+}
+.mf-9{
+    font-size: 0.9vw;
+}
+
+@media (min-width: 1000px){
+    
+}
+
+@media (max-width: 1000px){
+    
+}
