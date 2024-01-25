@@ -3,12 +3,14 @@
 
 <head>
   <meta charset="utf-8" />
+  <meta name="viewport" content="user-scalable=no">
   <title></title>
 
   <link rel="stylesheet" href="style.css" />
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
   <script src="popup_menu.js"></script>
   <script src="slider.js"></script>
+  <script src="phone.js"></script>
   <script>
     if (CSS && 'paintWorklet' in CSS) CSS.paintWorklet.addModule('https://unpkg.com/smooth-corners')
   </script>
@@ -23,35 +25,65 @@
         <div class="rectangle-1">
           <p class="t_reactagle-1 ">Заявка в Российские студенческие отряды</p>
         </div>
-        <img class="image-3" src="img/logo-2.webp"></img>
+        <img class="image-3" src="img/logo-2.png"></img>
       </div>
     </div>
 
     <div class="block">
       <div class="frame-2">
         <div class="ellipse-1"></div>
-        <img class="image-2" src="img/logo-1.webp"></img>
-        <img class="image-1" src="img/image1.webp"></img>
+        <!--<img class="image-2" src="img/logo-1.png">-->
+        <div class="rso_logo">
+          <p class="rso_text-up">Работа<br>для студента</p>
+          <div class="rso_text_down"><img src="img/vector2.png" class="rso_image">
+            <p class="rso_text_down1">вместе с </p>
+            <p class="rso_text_down2">РСО</p>
+          </div>
+        </div>
+        <img class="image-1" src="img/image1.png">
         <form class="form-1">
           <div class="">
             <input class="inp-name " placeholder="Введите свое имя">
-            <input class="inp-contact " placeholder="Ваш контакт">
+            <input class="inp-contact " placeholder="Ваш телефон" autocomplete="on">
           </div>
           <div class="b_box-1">
-            <button class="b_tel"><a href="tel:+78443221212"><img class="i_tel1" src="img/i_tel1.webp"></img><img class="i_tel2"
-                src="img/i_tel2.webp"></img></a></button>
+
+            <input class="r_phone" style="display:none;" type="radio" name="callback" value="phone" checked />
+            <input class="r_whatsapp" style="display:none;" type="radio" name="callback" value="whatsapp" />
+            <input class="r_telegram" style="display:none;" type="radio" name="callback" value="telegram" />
+
+            <div class="b_tel">
+              <div class="b_container">
+                <img value="phone" class="i_tel1 i_b1" style="/*display: none;*/" src="img/i_tel1.png">
+
+              </div>
+              <img class="i_tel2" src="img/i_tel2.png">
+              <div class="drp_menu">
+                <div class="dop_container1">
+                  <img value="telegram" class="i_tel4 i_b3" style="/*display: none;*/" src="img/telegram.png">
+                </div>
+                <div class="dop_container2">
+                  <img value="whatsapp" class="i_tel3 i_b2" style="/*display: none;*/" src="img/whatsapp.png">
+                </div>
+              </div>
+            </div>
+
+
+
+
             <button class="b_send ">Нажми и мы с тобой свяжемся</button>
           </div>
           <div class="check-box-1">
-            <input type="checkbox" id="" name="" />
+            <input type="checkbox" id="" name="">
             <p class="label_checkbox">Даю согласие на обработку персональных данных</p>
           </div>
         </form>
-        <p class="text-wrapper ">Номер для связи с нами:&emsp;+7 (844) 322 1212</p>
+        <p class="text-wrapper ">Номер для связи с нами: 8 (800) 770-01-17</p>
         <div class="box-social">
-          <div class="b_telegram"><a href="https://vk.com/rso_official"><img class="i_telegram" src="img/i_telegram.webp"></a></div>
-          <div class="b_chain"><a href="https://трудкрут.рф"><img class="i_chain" src="img/i_chain.webp"></a></div>
-          <div class="b_vk"><a href="https://t.me/rso_official"><img class="i_vk" src="img/i_vk.webp"></a></div>
+          <div class="b_telegram"><a href="https://t.me/rso_official"><img class="i_telegram"
+                src="img/i_telegram.png"></a></div>
+          <div class="b_chain"><a href="https://трудкрут.рф"><img class="i_chain" src="img/i_chain.png"></a></div>
+          <div class="b_vk"><a href="https://vk.com/rso_official"><img class="i_vk" src="img/i_vk.png"></a></div>
         </div>
       </div>
     </div>
@@ -60,19 +92,18 @@
         <div class="ellipse-3"></div>
         <div class="group-1">
           <p class="text-wrapper ">
-            Российские студенческие отряды<br />— лучшее молодежное сообщество страны!<br /><br />Это место, где
-            студенты<br />
-            могут найти работу на самых масштабных<br />проектах нашей страны.
+            Российские студенческие отряды<br />— лучшее сообщество для молодых по версии Росмолодёжи!<br />
+            <br />Это место, где студенты<br /> могут найти работу на самых масштабных<br />проектах нашей страны.
           </p>
         </div>
         <div class="group-2">
           <div class="i_block-1">
-            <img class="g1-image1" src="img/g1-image1.webp" />
-            <img class="g1-image4" src="img/g1-image4.webp" />
+            <img class="g1-image1" src="img/g1-image1.png" />
+            <img class="g1-image4" src="img/g1-image4.png" />
           </div>
           <div class="i_block-2">
-            <img class="g1-image2" src="img/g1-image2.webp" />
-            <img class="g1-image3" src="img/g1-image3.webp" />
+            <img class="g1-image2" src="img/g1-image2.png" />
+            <img class="g1-image3" src="img/g1-image3.png" />
           </div>
         </div>
         <div class="ellipse-2"></div>
@@ -91,7 +122,7 @@
           <div class="g2-c1">
             <div class="card">
               <div class="g2-card1 g2-card card_front card_front1">
-                <img class="g2-card1-image" src="img/g2-image1.webp" />
+                <img class="g2-card1-image" src="img/g2-image1.png" />
                 <div class="g2-card-text">Педагогическое<br />направление</div>
               </div>
               <div class="g2-card1 g2-card card_back card_back1">
@@ -108,7 +139,7 @@
             </div>
             <div class="card">
               <div class="g2-card2 g2-card card_front card_front2">
-                <img class="g2-card2-image" src="img/g2-image2.webp" />
+                <img class="g2-card2-image" src="img/g2-image2.png" />
                 <div class="g2-card-text">Строительное<br />направление</div>
               </div>
               <div class="g2-card2 g2-card card_back card_back2">
@@ -124,7 +155,7 @@
             </div>
             <div class="card">
               <div class="g2-card3 g2-card card_front card_front3">
-                <img class="g2-card3-image" src="img/g2-image3.webp" />
+                <img class="g2-card3-image" src="img/g2-image3.png" />
                 <div class="g2-card-text">Направление<br />сервиса и туризма</div>
               </div>
               <div class="g2-card3 g2-card card_back card_back3">
@@ -140,7 +171,7 @@
             </div>
             <div class="card">
               <div class="g2-card4 g2-card card_front card_front4">
-                <img class="g2-card4-image" src="img/g2-image4.webp" />
+                <img class="g2-card4-image" src="img/g2-image4.png" />
                 <div class="g2-card-text">Направление<br />проводников ЖД</div>
               </div>
               <div class="g2-card4 g2-card card_back card_back4">
@@ -159,7 +190,7 @@
           <div class="g2-c2">
             <div class="card">
               <div class="g2-card5 g2-card card_front card_front5">
-                <img class="g2-card5-image" src="img/g2-image5.webp" />
+                <img class="g2-card5-image" src="img/g2-image5.png" />
                 <div class="g2-card-text">Сельскохозяйственное<br />направление</div>
               </div>
               <div class="g2-card5 g2-card card_back card_back5">
@@ -175,7 +206,7 @@
             </div>
             <div class="card">
               <div class="g2-card6 g2-card card_front card_front6">
-                <img class="g2-card6-image" src="img/g2-image6.webp" />
+                <img class="g2-card6-image" src="img/g2-image6.png" />
                 <div class="g2-card-text">Медицинское<br />направление</div>
               </div>
               <div class="g2-card6 g2-card card_back card_back6">
@@ -191,7 +222,7 @@
             </div>
             <div class="card">
               <div class="g2-card7 g2-card card_front card_front7">
-                <img class="g2-card7-image" src="img/g2-image7.webp" />
+                <img class="g2-card7-image" src="img/g2-image7.png" />
                 <div class="g2-card-text">Трудовые отряды<br />подростков</div>
               </div>
               <div class="g2-card7 g2-card card_back card_back7">
@@ -224,29 +255,29 @@
 
         <div class="group-2">
           <div class="column">
-            <img class="column-image" src="img/g3-image1.webp"></img>
-            <img class="column-image" src="img/g3-image2.webp"></img>
-            <img class="column-image" src="img/g3-image3.webp"></img>
+            <img class="column-image" src="img/g3-image1.png"></img>
+            <img class="column-image" src="img/g3-image2.png"></img>
+            <img class="column-image" src="img/g3-image3.png"></img>
           </div>
           <div class="column">
-            <img class="column-image" src="img/g3-image4.webp"></img>
-            <img class="column-image" src="img/g3-image5.webp"></img>
-            <img class="column-image" src="img/g3-image6.webp"></img>
+            <img class="column-image" src="img/g3-image4.png"></img>
+            <img class="column-image" src="img/g3-image5.png"></img>
+            <img class="column-image" src="img/g3-image6.png"></img>
           </div>
           <div class="column">
-            <img class="column-image" src="img/g3-image7.webp"></img>
-            <img class="column-image" src="img/g3-image8.webp"></img>
-            <img class="column-image" src="img/g3-image9.webp"></img>
+            <img class="column-image" src="img/g3-image7.png"></img>
+            <img class="column-image" src="img/g3-image8.png"></img>
+            <img class="column-image" src="img/g3-image9.png"></img>
           </div>
           <div class="column">
-            <img class="column-image" src="img/g3-image10.webp"></img>
-            <img class="column-image" src="img/g3-image11.webp"></img>
-            <img class="column-image" src="img/g3-image12.webp"></img>
+            <img class="column-image" src="img/g3-image10.png"></img>
+            <img class="column-image" src="img/g3-image11.png"></img>
+            <img class="column-image" src="img/g3-image12.png"></img>
           </div>
         </div>
 
         <div class="group-3">
-          <button class="b_svz " id="popup2">Выбрать направление</button>
+          <button class="b_svz " id="popup2">Связать с нами и узнать о местах работы подробнее</button>
         </div>
       </div>
     </div>
@@ -254,7 +285,7 @@
     <div class="block">
       <div class="frame-6">
         <div class="group-1">
-          <P class="text-wrapper">Места нашей работы</P>
+          <P class="text-wrapper">Наши преимущества перед кадровыми агентствами</P>
         </div>
 
         <div class="group-2">
@@ -325,68 +356,68 @@
         <div class="group-2" id="slider">
           <div class="p_images p_images1">
             <!--
-            <img class="p_image p1_image1" src="img/b1_p1.webp"></img>
-            <img class="p_image p1_image2" src="img/b1_p2.webp"></img>
-            <img class="p_image p1_image3" src="img/b1_p3.webp"></img>
-            <img class="p_image p1_image4" src="img/b1_p4.webp"></img>
-            <img class="p_image p1_image5" src="img/b1_p5.webp"></img>
-            <img class="p_image p1_image6" src="img/b1_p6.webp"></img>
-            <img class="p_image p1_image7" src="img/b1_p7.webp"></img>
-            <img class="p_image p1_image8" src="img/b1_p8.webp"></img>
+            <img class="p_image p1_image1" src="img/b1_p1.png"></img>
+            <img class="p_image p1_image2" src="img/b1_p2.png"></img>
+            <img class="p_image p1_image3" src="img/b1_p3.png"></img>
+            <img class="p_image p1_image4" src="img/b1_p4.png"></img>
+            <img class="p_image p1_image5" src="img/b1_p5.png"></img>
+            <img class="p_image p1_image6" src="img/b1_p6.png"></img>
+            <img class="p_image p1_image7" src="img/b1_p7.png"></img>
+            <img class="p_image p1_image8" src="img/b1_p8.png"></img>
             -->
-            <img class="p_image-slide1" src="img/slider1.webp"></img>
+            <img class="p_image-slide1" src="img/slider1.png"></img>
           </div>
 
           <div class="p_images p_images2">
             <!--
-            <img class="p_image p2_image1" src="img/b2_p1.webp"></img>
-            <img class="p_image p2_image2" src="img/b2_p2.webp"></img>
-            <img class="p_image p2_image3" src="img/b2_p3.webp"></img>
-            <img class="p_image p2_image4" src="img/b2_p4.webp"></img>
-            <img class="p_image p2_image5" src="img/b2_p5.webp"></img>
-            <img class="p_image p2_image6" src="img/b2_p6.webp"></img>
-            <img class="p_image p2_image7" src="img/b2_p7.webp"></img>
-            <img class="p_image p2_image8" src="img/b2_p8.webp"></img>
+            <img class="p_image p2_image1" src="img/b2_p1.png"></img>
+            <img class="p_image p2_image2" src="img/b2_p2.png"></img>
+            <img class="p_image p2_image3" src="img/b2_p3.png"></img>
+            <img class="p_image p2_image4" src="img/b2_p4.png"></img>
+            <img class="p_image p2_image5" src="img/b2_p5.png"></img>
+            <img class="p_image p2_image6" src="img/b2_p6.png"></img>
+            <img class="p_image p2_image7" src="img/b2_p7.png"></img>
+            <img class="p_image p2_image8" src="img/b2_p8.png"></img>
             -->
-            <img class="p_image-slide2" src="img/slider2.webp"></img>
+            <img class="p_image-slide2" src="img/slider2.png"></img>
           </div>
 
           <div class="p_images p_images3">
             <!--
-            <img class="p_image p3_image1" src="img/b3_p1.webp"></img>
-            <img class="p_image p3_image2" src="img/b3_p2.webp"></img>
-            <img class="p_image p3_image3" src="img/b3_p3.webp"></img>
-            <img class="p_image p3_image4" src="img/b3_p4.webp"></img>
-            <img class="p_image p3_image5" src="img/b3_p5.webp"></img>
-            <img class="p_image p3_image6" src="img/b3_p6.webp"></img>
-            <img class="p_image p3_image7" src="img/b3_p7.webp"></img>
-            <img class="p_image p3_image8" src="img/b3_p8.webp"></img>
+            <img class="p_image p3_image1" src="img/b3_p1.png"></img>
+            <img class="p_image p3_image2" src="img/b3_p2.png"></img>
+            <img class="p_image p3_image3" src="img/b3_p3.png"></img>
+            <img class="p_image p3_image4" src="img/b3_p4.png"></img>
+            <img class="p_image p3_image5" src="img/b3_p5.png"></img>
+            <img class="p_image p3_image6" src="img/b3_p6.png"></img>
+            <img class="p_image p3_image7" src="img/b3_p7.png"></img>
+            <img class="p_image p3_image8" src="img/b3_p8.png"></img>
             -->
-            <img class="p_image-slide3" src="img/slider3.webp"></img>
+            <img class="p_image-slide3" src="img/slider3.png"></img>
           </div>
 
           <div class="p_images p_images4">
             <!--
-            <img class="p_image p4_image1" src="img/b4_p1.webp"></img>
-            <img class="p_image p4_image2" src="img/b4_p2.webp"></img>
-            <img class="p_image p4_image3" src="img/b4_p3.webp"></img>
-            <img class="p_image p4_image4" src="img/b4_p4.webp"></img>
-            <img class="p_image p4_image5" src="img/b4_p5.webp"></img>
+            <img class="p_image p4_image1" src="img/b4_p1.png"></img>
+            <img class="p_image p4_image2" src="img/b4_p2.png"></img>
+            <img class="p_image p4_image3" src="img/b4_p3.png"></img>
+            <img class="p_image p4_image4" src="img/b4_p4.png"></img>
+            <img class="p_image p4_image5" src="img/b4_p5.png"></img>
             -->
-            <img class="p_image-slide4" src="img/slider4.webp"></img>
+            <img class="p_image-slide4" src="img/slider4.png"></img>
           </div>
 
         </div>
 
         <div class="group-3">
-          <div class="left" id="left"><img class="arrow-left" src="img/left.webp"></img></div>
+          <div class="left" id="left"><img class="arrow-left" src="img/left.png"></img></div>
           <div class="ellipses-midle" id="ellipses">
             <div class="ellipse-11 ellipse-activate" id="s1"></div>
             <div class="ellipse-11" id="s2"></div>
             <div class="ellipse-11" id="s3"></div>
             <div class="ellipse-11" id="s4"></div>
           </div>
-          <div class="right" id="right"><img class="arrow-right" src="img/right.webp"></img></div>
+          <div class="right" id="right"><img class="arrow-right" src="img/right.png"></img></div>
         </div>
       </div>
     </div>
@@ -398,7 +429,7 @@
           <div class="box-social-down">
             <div class="b_vk b_social">
               <a class="a_social-i" href="https://vk.com/rso_official">
-                <img class="i_vk-down i_social" src="img/i_vk.webp">
+                <img class="i_vk-down i_social" src="img/i_vk.png">
               </a>
               <a class="a_social-b a_vk" href="https://vk.com/rso_official">
                 <div class="vk_box-down social-box">
@@ -408,7 +439,7 @@
             </div>
             <div class="b_chain-down b_social">
               <a class="a_social-i" href="https://трудкрут.рф/">
-                <img class="i_chain-down i_social" src="img/i_chain.webp">
+                <img class="i_chain-down i_social" src="img/i_chain.png">
               </a>
               <a class="a_social-b a_chain" href="https://трудкрут.рф/">
                 <div class="chain_box social-box">
@@ -418,17 +449,17 @@
             </div>
             <div class="b_telegram-down b_social">
               <a class="a_social-i" href="https://t.me/rso_official">
-                <img class="i_telegram-down i_social" src="img/i_telegram.webp">
+                <img class="i_telegram-down i_social" src="img/i_telegram.png">
               </a>
               <a class="a_social-b a_telegram" href="https://t.me/rso_official">
                 <div class="telegram_box social-box">
-                  <p class="telegram_text social_text">@rso_call</p>
+                  <p class="telegram_text social_text">@rso_official</p>
                 </div>
               </a>
             </div>
             <div class="b_phone-down b_social">
               <a class="a_social-i a_i_phone" href="">
-                <img class="i_phone-down i_social" src="img/i_phone.webp">
+                <img class="i_phone-down i_social" src="img/i_phone.png">
               </a>
               <a class="a_social-b a_phone" href="tel:+78443221212">
                 <div class="phone_box social-box">
@@ -446,8 +477,31 @@
               <input class="inp-contact " placeholder="Ваш контакт">
             </div>
             <div class="b_box-1 b-box-center">
-              <button class="b_tel"><a href="tel:+78443221212"><img class="i_tel1" src="img/i_tel1.webp"></img><img class="i_tel2"
-                  src="img/i_tel2.webp"></img></a></button>
+
+              <!--
+              <button class="b_tel"><a href="tel:+78443221212"><img class="i_tel1" src="img/i_tel1.png"></img><img
+              class="i_tel2" src="img/i_tel2.png"></img></a></button>
+              -->
+              <input class="r_phone" style="display:none;" type="radio" name="callback" value="phone" checked />
+              <input class="r_whatsapp" style="display:none;" type="radio" name="callback" value="whatsapp" />
+              <input class="r_telegram" style="display:none;" type="radio" name="callback" value="telegram" />
+
+              <div class="b_tel">
+                <div class="b_container">
+                  <img value="phone" class="i_tel1 i_b1" style="/*display: none;*/" src="img/i_tel1.png">
+
+                </div>
+                <img class="i_tel2" src="img/i_tel2.png">
+                <div class="drp_menu">
+                  <div class="dop_container1">
+                    <img value="telegram" class="i_tel4 i_b3" style="/*display: none;*/" src="img/telegram.png">
+                  </div>
+                  <div class="dop_container2">
+                    <img value="whatsapp" class="i_tel3 i_b2" style="/*display: none;*/" src="img/whatsapp.png">
+                  </div>
+                </div>
+              </div>
+
               <button class="b_send ">Нажми и мы с тобой свяжемся</button>
             </div>
             <div class="check-box-1">
@@ -490,8 +544,23 @@
             <input class="inp-contact " placeholder="Ваш контакт">
           </div>
           <div class="b_box-1 b-box-center">
-            <button class="b_tel"><a href="tel:+78443221212"><img class="i_tel1" src="img/i_tel1.webp"></img><img class="i_tel2"
-                src="img/i_tel2.webp"></img></a></button>
+            <input class="r_phone" style="display:none;" type="radio" name="callback" value="phone" checked />
+              <input class="r_whatsapp" style="display:none;" type="radio" name="callback" value="whatsapp" />
+              <input class="r_telegram" style="display:none;" type="radio" name="callback" value="telegram" />
+            <div class="b_tel">
+              <div class="b_container">
+                <img value="phone" class="i_tel1 i_b1" style="/*display: none;*/" src="img/i_tel1.png">
+              </div>
+              <img class="i_tel2" src="img/i_tel2.png">
+              <div class="drp_menu">
+                <div class="dop_container1">
+                  <img value="telegram" class="i_tel4 i_b3" style="/*display: none;*/" src="img/telegram.png">
+                </div>
+                <div class="dop_container2">
+                  <img value="whatsapp" class="i_tel3 i_b2" style="/*display: none;*/" src="img/whatsapp.png">
+                </div>
+              </div>
+            </div>
             <button class="b_send ">Нажми и мы с тобой свяжемся</button>
           </div>
           <div class="check-box-1 check-box-1-center">
@@ -505,12 +574,15 @@
           </div>
           <div class="box-popup">
             <div class="box-social-popup">
-              <div class="b_telegram-popup"><a href="https://t.me/rso_official"><img class="i_telegram-popup" src="img/i_telegram.webp"></a></div>
-              <div class="b_chain-popup"><a href="https://трудкрут.рф/"><img class="i_chain-popup" src="img/i_chain.webp"></a></div>
-              <div class="b_vk-popup"><a href="https://vk.com/rso_official"><img class="i_vk-popup" src="img/i_vk.webp"></a></div>
+              <div class="b_telegram-popup"><a href="https://t.me/rso_official"><img class="i_telegram-popup"
+                    src="img/i_telegram.png"></a></div>
+              <div class="b_chain-popup"><a href="https://трудкрут.рф/"><img class="i_chain-popup"
+                    src="img/i_chain.png"></a></div>
+              <div class="b_vk-popup"><a href="https://vk.com/rso_official"><img class="i_vk-popup"
+                    src="img/i_vk.png"></a></div>
             </div>
             <div class="popup-phone">
-              <p>+7 (844) 322 1212</p>
+              <p>8 (800) 770-01-17</p>
             </div>
           </div>
         </div>
@@ -530,4 +602,5 @@
 
   </div>
 </body>
+
 </html>

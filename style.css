@@ -39,9 +39,157 @@ a {
     text-decoration: none;
 }
 
+.b_container {
+    width: 35%;
+    padding: 15% 0 0 12%;
+}
+
+.dop_container1 {
+    width: 35%;
+    margin-right: 3%;
+}
+
+.dop_container2 {
+    width: 35%;
+    margin-left: 3%;
+}
+
+.b_tel:hover .drp_menu {
+    display: -webkit-inline-box;
+}
+
+img.i_tel1.i_tel3 {
+    width: 35%;
+    float: left;
+     
+
+    padding: 15% 0% 15% 15%;
+}
+
+img.i_tel1.i_tel4 {
+    width: 35%;
+    float: left;
+     
+
+    padding: 15% 0% 15% 15%;
+}
+
+.i_tel3 {
+    width: 100%;
+     
+
+     
+
+     
+
+}
+
+.i_tel4 {
+    width: 92%;
+    padding-top: 8%;
+     
+
+     
+
+     
+
+}
+
+.drp_menu {
+    background-color: #39BFBF;
+    border-radius: 10px;
+    border-color: #00ffff00;
+    box-sizing: border-box;
+     
+
+    display: none;
+     
+
+    width: 100%;
+    cursor: pointer;
+    position: absolute;
+    top: 71%;
+    left: 0%;
+     
+
+    -webkit-box-pack: center;
+    padding: 13% 0 5% 0;
+    z-index: -1;
+}
+
+.b_select {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-color: #39BFBF;
+    border-radius: 10px;
+    border-color: #00ffff00;
+    box-sizing: border-box;
+    color: white;
+    display: block;
+    margin-right: 1.4%;
+    cursor: pointer;
+    appearance: none;
+    background-image: url("data:image/svg+xml,<svg width='18' height='11' viewBox='0 0 18 11' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M0.771973 1.71216L8.81122 9.75141L16.8505 1.71216' stroke='white' stroke-width='1.53129' stroke-linecap='round'/></svg>");
+    background-repeat: no-repeat;
+    background-position: calc(100% - 15px) center;
+    outline: none;
+}
+
+.b_select select {}
 
 
- 
+.rso_logo {
+    width: 60%;
+    position: absolute;
+    top: 10.85%;
+    left: 3.99%;
+}
+
+p.rso_text-up {
+    font-family: Firenight-Regular;
+    font-size: 5.7vw;
+    margin: 0;
+    text-transform: uppercase;
+    line-height: 103%;
+}
+
+img.rso_image {
+    display: block;
+    width: 10%;
+    height: 12%;
+    margin-top: 12%;
+}
+
+p.rso_text_down1 {
+    font-family: 'Makan Hati Cyrillic-Regular';
+    font-size: 6vw;
+    color: #39BFBF;
+    margin: 0;
+    transform: rotate(-1.07deg);
+    margin-left: 4%;
+    margin-right: 6%;
+}
+
+p.rso_text_down2 {
+    font-family: 'Makan Hati Cyrillic-Regular';
+    font-size: 5vw;
+    color: #39BFBF;
+    -webkit-text-stroke: #39BFBF 4px;
+    margin: 0;
+    transform: rotate(-1.07deg);
+    left: 105%;
+    top: 8%;
+    letter-spacing: 0.4vw;
+    margin-top: 2%;
+}
+
+.rso_text_down {
+    display: -webkit-inline-box;
+    position: absolute;
+    top: 89.5%;
+    left: -0.2%;
+}
 
 
 .frame-9 {
@@ -49,9 +197,9 @@ a {
     border-radius: 3% / 18%;
     width: 100%;
     position: relative;
-     
 
-     
+
+
 
     height: 100%;
     display: -webkit-inline-box;
@@ -73,7 +221,7 @@ a {
     font-weight: 400;
 }
 
- 
+
 
 
 .frame-8 {
@@ -105,7 +253,7 @@ a {
     margin-top: 4%;
     font-family: 'NtSomic-Regular', sans-serif;
     margin-right: 17%;
-     
+
 
     margin-left: 8%;
 }
@@ -119,7 +267,7 @@ a {
 }
 
 .a_telegram {
-    width: 135%;
+    width: 160%;
 }
 
 .a_phone {
@@ -127,10 +275,12 @@ a {
 }
 
 .social_text {
-     
 
     margin: 0;
+
     padding: 8% 0;
+
+    color: black;
 }
 
 .a_social-i {
@@ -143,10 +293,7 @@ a {
     height: 100%;
 }
 
-.a_i_phone {
-     
-
-}
+.a_i_phone {}
 
 .social-box {
     border-radius: 12% / 28%;
@@ -155,7 +302,7 @@ a {
     border-width: 2px;
     font-family: 'NtSomic-Regular', sans-serif;
     font-size: 1vw;
-     
+
 
     margin-left: 5%;
     width: 100%;
@@ -186,20 +333,17 @@ a {
 
 .b_chain-down {}
 
-.b_phone-down {
-     
-
-}
+.b_phone-down {}
 
 .b_vk-down {
     display: flex;
-     
 
-     
 
-     
 
-     
+
+
+
+
 
 }
 
@@ -207,23 +351,23 @@ a {
 
 .i_phone {
     width: 50%;
-     
 
-     
+
+
 
 }
 
 .form-3 .inp-name {
     width: 100%;
     margin-bottom: 3%;
-    padding: 3.4% 0;
+    padding: 3.8% 0;
     margin-right: 0;
     font-size: 1vw;
 }
 
 .form-3 .inp-contact {
     width: 100%;
-    padding: 3.4% 0;
+    padding: 3.8% 0;
     font-size: 1vw;
 }
 
@@ -233,22 +377,26 @@ a {
 }
 
 .form-3 .b_tel {
-    width: 20%;
-     
-
+    width: 22%;
+    position: relative;
+    padding: 1.2%;
+    z-index: 2;
 }
 
 .form-3 .i_tel1 {
-    width: 35%;
+    width: 100%;
 }
 
 .form-3 .i_tel2 {
-    width: 25%;
+    width: 16%;
+    top: 44%;
+    left: 65%;
 }
 
 .form-3 .b_send {
     font-size: 1vw;
-    width: 77.5%;
+    width: 77%;
+    line-height: 165%;
 }
 
 .form-3 .check-box-1 {
@@ -267,56 +415,29 @@ a {
 .form-3 {
     width: 100%;
     margin-top: 22%;
-     
+
 
 }
 
-.telegram_text {
-     
+.telegram_text {}
 
-}
+.chain_text {}
 
-.chain_text {
-     
+.phone_text {}
 
-}
-
-.phone_text {
-     
-
-     
-
-}
-
-.vk_text {
-     
-
-     
-
-     
-
-}
+.vk_text {}
 
 .i_vk-down {
-     
+
 
     height: 100%;
 }
 
-.i_chain-down {
-     
+.i_chain-down {}
 
-}
+.i_telegram-down {}
 
-.i_telegram-down {
-     
-
-}
-
-.i_phone-down {
-     
-
-}
+.i_phone-down {}
 
 .chain_box {}
 
@@ -345,7 +466,7 @@ a {
     margin-left: 7%;
 }
 
- 
+
 
 .p_images1 {
     width: 25%;
@@ -391,12 +512,12 @@ p_images4 {
 }
 
 .ellipses-midle {
-     
+
 
     width: 12%;
     height: 100%;
     display: flex;
-     
+
 
     flex-direction: row;
     align-items: center;
@@ -455,7 +576,7 @@ p_images4 {
 
 .frame-7 .group-2 {
     width: 400%;
-     
+
 
     overflow: hidden;
     display: -webkit-inline-box;
@@ -476,26 +597,26 @@ p_images4 {
 
 .p_images {
     position: relative;
-     
 
-     
+
+
 
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
     align-content: stretch;
-     
 
-     
 
-     
 
-     
+
+
+
+
 
 }
 
 .p_image {
-     
+
 
     width: 25%;
 }
@@ -643,7 +764,7 @@ p_images4 {
     width: 21%;
 }
 
- 
+
 
 
 .frame-6 {
@@ -660,7 +781,7 @@ p_images4 {
 
 .q-column1 {
     width: 45%;
-     
+
 
 }
 
@@ -674,7 +795,7 @@ p_images4 {
     border-radius: 28px;
     width: 100%;
     margin-bottom: 5%;
-     
+
 
 }
 
@@ -708,9 +829,9 @@ p_images4 {
 
 .frame-6 .group-2 {
     display: -webkit-box;
-     
 
-     
+
+
 
     -webkit-box-pack: center;
 
@@ -726,7 +847,7 @@ p_images4 {
     margin-top: 5%;
 }
 
- 
+
 
 
 .frame-5 {
@@ -764,7 +885,7 @@ p_images4 {
     transform: rotate(-2.251deg);
     margin: 0;
     padding: 0;
-     
+
 
     font-size: 2.45vw;
     margin-top: -4.5%;
@@ -802,9 +923,13 @@ p_images4 {
     padding: 1.4% 0;
     cursor: pointer;
     margin: 0 auto;
+    font-size: 1.3vw;
+    --smooth-corners: 30, 30;
+    mask-image: paint(smooth-corners);
+    -webkit-mask-image: paint(smooth-corners);
 }
 
- 
+
 
 
 .form-2 {
@@ -965,6 +1090,7 @@ p_images4 {
     left: 38%;
     top: 75%;
     filter: blur(100px);
+    z-index: -1;
 }
 
 .ellipse-6 {
@@ -1021,7 +1147,7 @@ p_images4 {
 
 
 
- 
+
 
 .frame-4 {
     background: #ffffff;
@@ -1048,7 +1174,7 @@ p_images4 {
 .g2-text {
     text-align: left;
     margin: 0px 10.2%;
-    margin-top: 15%;
+    margin-top: 17%;
     font-family: "NtSomic-Medium", Helvetica;
     color: #000000;
     line-height: 105%;
@@ -1056,7 +1182,7 @@ p_images4 {
 
 .g2-m2 {
     position: absolute;
-    top: 60%;
+    top: 58%;
 }
 
 .g2-text1 {}
@@ -1215,6 +1341,9 @@ p_images4 {
     cursor: pointer;
     padding: 1.7% 0;
     font-size: 1.3vw;
+--smooth-corners: 15, 15;
+    mask-image: paint(smooth-corners);
+    -webkit-mask-image: paint(smooth-corners);
 }
 
 .frame-4 .group-1 {}
@@ -1359,12 +1488,12 @@ p_images4 {
     color: #000000;
     text-align: center;
     line-height: 105%;
-    margin-bottom: 22%;
+    margin-bottom: 25%;
 }
 
 
 
- 
+
 
 
 .frame-3 {
@@ -1458,7 +1587,7 @@ p_images4 {
 }
 
 .frame-3 .text-wrapper {
-    width: 70%;
+    width: 87%;
     margin: 0 auto;
     font-family: "NtSomic-Bold", Helvetica;
     color: #000000;
@@ -1466,12 +1595,14 @@ p_images4 {
     margin-bottom: 5%;
     margin-top: 5%;
     font-size: 1.8vw;
+    z-index: 99;
+    position: relative;
 }
 
 .text-wrapper {}
 
 
- 
+
 
 
 .frame-2 {
@@ -1540,15 +1671,26 @@ p_images4 {
 }
 
 .i_tel1 {
-    width: 40%;
-    float: left;
-    margin: 15% 0 15% 10%;
+    width: 100%;
+     
+
+     
+
+     
+
 }
 
 .i_tel2 {
-    width: 20%;
-    float: right;
-    margin: 25% 10% 23% 0%;
+    width: 18%;
+     
+
+     
+
+     
+
+    position: absolute;
+    top: 43%;
+    left: 65%;
 }
 
 .b_tel {
@@ -1561,6 +1703,13 @@ p_images4 {
     margin-right: 1.4%;
     width: 16%;
     cursor: pointer;
+    z-index: 0;
+    position: relative;
+     
+
+    mask-image: paint(smooth-corners);
+     
+
 }
 
 .b_send {
@@ -1575,6 +1724,11 @@ p_images4 {
     cursor: pointer;
     padding: 2.45% 0;
     font-size: 1.3vw;
+     
+
+    mask-image: paint(smooth-corners);
+     
+
 }
 
 .inp-name {
@@ -1587,6 +1741,11 @@ p_images4 {
     width: 40%;
     padding: 3% 0;
     font-size: 1.3vw;
+     
+
+    mask-image: paint(smooth-corners);
+     
+
 }
 
 .inp-contact {
@@ -1598,6 +1757,11 @@ p_images4 {
     width: 37%;
     padding: 3% 0;
     font-size: 1.3vw;
+     
+
+    mask-image: paint(smooth-corners);
+     
+
 }
 
 .frame2-image-1 {
@@ -1656,8 +1820,72 @@ p_images4 {
 }
 
 
- 
+.form-3 .drp_menu {
 
+    top: 65%;
+
+    left: 0%;
+
+    width: 100%;
+
+    z-index: -1;
+
+    padding: 15% 0 5% 0%;
+}
+
+.form-3 .dop_container1 {
+
+    width: 30%;
+
+    margin-right: 5%;
+}
+
+.form-3 .dop_container2 {
+
+    width: 30%;
+
+    margin-left: 5%;
+}
+
+.form-3 .b_container {
+
+padding: 8% 0 0% 12%;
+}
+
+
+.form-2 .drp_menu {
+
+top: 65%;
+
+left: 0%;
+
+width: 100%;
+
+z-index: -1;
+
+padding: 15% 0 5% 0%;
+}
+
+.form-2 .dop_container1 {
+
+width: 30%;
+
+margin-right: 5%;
+}
+
+.form-2 .dop_container2 {
+
+width: 30%;
+
+margin-left: 5%;
+}
+
+.form-2 .b_container {
+
+padding: 15% 0 0 15%;
+
+width: 30%;
+}
 
 .block_top {
     text-align: center;
@@ -1702,7 +1930,7 @@ p_images4 {
     width: 4.5%;
 }
 
- 
+
 
 
 .block {
