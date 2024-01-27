@@ -41,7 +41,7 @@ a {
 
 .b_container {
     width: 35%;
-    padding: 15% 0 0 12%;
+    padding: 18% 0 0 14%;
 }
 
 .dop_container1 {
@@ -55,7 +55,7 @@ a {
 }
 
 .b_tel:hover .drp_menu {
-    display: -webkit-inline-box;
+    display: grid;
 }
 
 img.i_tel1.i_tel3 {
@@ -75,13 +75,7 @@ img.i_tel1.i_tel4 {
 }
 
 .i_tel3 {
-    width: 100%;
-     
-
-     
-
-     
-
+    width: 92%;
 }
 
 .i_tel4 {
@@ -100,21 +94,17 @@ img.i_tel1.i_tel4 {
     border-radius: 10px;
     border-color: #00ffff00;
     box-sizing: border-box;
-     
-
     display: none;
-     
-
     width: 100%;
     cursor: pointer;
     position: absolute;
-    top: 71%;
+    top: 66%;
     left: 0%;
-     
-
     -webkit-box-pack: center;
     padding: 13% 0 5% 0;
     z-index: -1;
+    height: 150%;
+    justify-items: center;
 }
 
 .b_select {
@@ -271,7 +261,7 @@ p.rso_text_down2 {
 }
 
 .a_phone {
-    width: 190%;
+    width: 200%;
 }
 
 .social_text {
@@ -324,7 +314,7 @@ p.rso_text_down2 {
 }
 
 .box-social-down {
-    width: 37%;
+    width: 36%;
     text-align: center;
     display: block;
 }
@@ -428,16 +418,20 @@ p.rso_text_down2 {
 .vk_text {}
 
 .i_vk-down {
-
-
-    height: 100%;
+height: 95%;
 }
 
-.i_chain-down {}
+.i_chain-down {
+    height: 95%;
+}
 
-.i_telegram-down {}
+.i_telegram-down {
+    height: 95%;
+}
 
-.i_phone-down {}
+.i_phone-down {
+    height: 95%;
+}
 
 .chain_box {}
 
@@ -1274,11 +1268,14 @@ p_images4 {
     top: 0;
     backface-visibility: hidden;
     transform: rotateY(-180deg);
+    -webkit-transform: rotateY(-180deg);
     transition: transform .3s cubic-bezier(.2, .85, .4, 1.275);
+    -webkit-transition: transform .3s cubic-bezier(.2, .85, .4, 1.275);
 }
 
 .card:hover .card_back1 {
     transform: rotate(-1.719deg) rotateY(0deg) !important;
+    -webkit-transform: rotate(-1.719deg) rotateY(0deg) !important;
     z-index: 2;
 }
 
@@ -1350,7 +1347,7 @@ p_images4 {
 
 .frame-4 .group-2 {
     margin-bottom: 3%;
-    font-size: 0.9vw;
+    font-size: 0.88vw;
 }
 
 .frame-4 .group-3 {
@@ -1612,9 +1609,9 @@ p_images4 {
     position: relative;
     overflow: hidden;
     padding-bottom: 55%;
-    --smooth-corners: 24, 32;
-    mask-image: paint(smooth-corners);
-    -webkit-mask-image: paint(smooth-corners);
+    /* --smooth-corners: 24, 32; */
+    /* mask-image: paint(smooth-corners); */
+    /* -webkit-mask-image: paint(smooth-corners); */
 }
 
 .b_telegram {}
@@ -1661,7 +1658,7 @@ p_images4 {
 .form-1 {
     position: absolute;
     left: 4%;
-    top: 67%;
+    top: 63%;
     width: 55%;
 }
 
@@ -1671,13 +1668,7 @@ p_images4 {
 }
 
 .i_tel1 {
-    width: 100%;
-     
-
-     
-
-     
-
+    width: 98%;
 }
 
 .i_tel2 {
@@ -1705,11 +1696,7 @@ p_images4 {
     cursor: pointer;
     z-index: 0;
     position: relative;
-     
-
-    mask-image: paint(smooth-corners);
-     
-
+    /* mask-image: paint(smooth-corners); */
 }
 
 .b_send {
@@ -1724,11 +1711,7 @@ p_images4 {
     cursor: pointer;
     padding: 2.45% 0;
     font-size: 1.3vw;
-     
-
-    mask-image: paint(smooth-corners);
-     
-
+    /* mask-image: paint(smooth-corners); */
 }
 
 .inp-name {
@@ -1741,11 +1724,7 @@ p_images4 {
     width: 40%;
     padding: 3% 0;
     font-size: 1.3vw;
-     
-
-    mask-image: paint(smooth-corners);
-     
-
+    /* mask-image: paint(smooth-corners); */
 }
 
 .inp-contact {
@@ -1757,11 +1736,7 @@ p_images4 {
     width: 37%;
     padding: 3% 0;
     font-size: 1.3vw;
-     
-
-    mask-image: paint(smooth-corners);
-     
-
+    /* mask-image: paint(smooth-corners); */
 }
 
 .frame2-image-1 {
@@ -1821,16 +1796,11 @@ p_images4 {
 
 
 .form-3 .drp_menu {
-
-    top: 65%;
-
-    left: 0%;
-
-    width: 100%;
-
-    z-index: -1;
-
-    padding: 15% 0 5% 0%;
+top: 58%;
+left: 0%;
+width: 100%;
+z-index: -1;
+padding: 15% 0 5% 0%;
 }
 
 .form-3 .dop_container1 {
@@ -1854,37 +1824,27 @@ padding: 8% 0 0% 12%;
 
 
 .form-2 .drp_menu {
-
-top: 65%;
-
-left: 0%;
-
-width: 100%;
-
-z-index: -1;
-
-padding: 15% 0 5% 0%;
+top: 55%;
+left: 0%;
+width: 100%;
+z-index: -1;
+padding: 15% 0 5% 0%;
+height: 160%;
 }
 
 .form-2 .dop_container1 {
-
-width: 30%;
-
-margin-right: 5%;
+width: 27%;
+margin-right: 5%;
 }
 
 .form-2 .dop_container2 {
-
-width: 30%;
-
-margin-left: 5%;
+width: 27%;
+margin-left: 5%;
 }
 
 .form-2 .b_container {
-
-padding: 15% 0 0 15%;
-
-width: 30%;
+padding: 15% 0 0 15%;
+width: 27%;
 }
 
 .block_top {
