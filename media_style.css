@@ -155,7 +155,7 @@
     }
     
     .drp_menu {
-        background-color: #39BFBF;
+        background-color: #34d0d0;
         border-radius: 0 0 12% 12% / 0 0 12% 12%;
         border-color: #00ffff00;
         box-sizing: border-box;
@@ -2252,7 +2252,7 @@ text-align: -webkit-center;
     }
     
     .drp_menu {
-        background-color: #39BFBF;
+        background-color: #34d0d0;
         border-radius: 0 0 12% 12% / 0 0 12% 12%;
         border-color: #00ffff00;
         box-sizing: border-box;
@@ -4264,7 +4264,7 @@ left: 51.5%;
     .b_tel:hover .drp_menu {
         display: grid;
         padding: 16% 0 0 0;
-        height: 175%;
+        height: 180%;
     }
 
     img.i_tel1.i_tel3 {
@@ -4305,7 +4305,7 @@ left: 51.5%;
     }
 
     .drp_menu {
-        background-color: #39BFBF;
+        background-color: #34d0d0;
         border-radius: 0 0 12% 12% / 0 0 12% 12%;
         border-color: #00ffff00;
         box-sizing: border-box;
