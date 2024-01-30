@@ -2217,6 +2217,7 @@ text-align: -webkit-center;
     
     .b_tel:hover .drp_menu {
         display: grid;
+        height: 200%;
     }
     
     img.i_tel1.i_tel3 {
@@ -3999,12 +4000,12 @@ margin-top: 3%;
     
     .check-box-1 input[type='checkbox'] {
         display: block;
-        width: 3%;
+        width: 4%;
         background-color: #f3f3f3;
         border-radius: 4.13px;
         border: 0.83px solid;
         border-color: #d4d4d4;
-        margin: 0px 3% 0 0;
+        margin: 0px 2% 0 0;
     }
     
     .label_checkbox {
@@ -4263,6 +4264,7 @@ left: 51.5%;
     .b_tel:hover .drp_menu {
         display: grid;
         padding: 16% 0 0 0;
+        height: 175%;
     }
 
     img.i_tel1.i_tel3 {
@@ -4613,7 +4615,7 @@ left: 51.5%;
     }
 
     .form-3 .check-box-1 {
-        margin: 0;
+        margin: 2% 0;
     }
 
     .form-3 .label_checkbox {
@@ -5246,7 +5248,7 @@ display: -webkit-box;
     }
 
     .check-box-1-center {
-        margin: 0 0% !important;
+        margin: 2% 0% !important;
     }
 
     .b-box-center {
@@ -5931,7 +5933,7 @@ display: -webkit-box;
 
     .b_box-1 {
         display: -webkit-box;
-        margin-top: 2.8%;
+        margin-top: 1.8%;
     }
 
     .i_tel1 {
@@ -5993,7 +5995,7 @@ display: -webkit-box;
         width: 100%;
         padding: 4% 0;
         font-size: 3.8vw;
-        margin-bottom: 1.2%;
+        margin-bottom: 1.5%;
     }
 
     .inp-contact {
@@ -6016,15 +6018,8 @@ display: -webkit-box;
     .check-box-1 {
         /* text-align: center; */
         font-family: "NtSomic-Regular", sans-serif;
-        margin: 1% 0;
+        margin: 2% 0;
         width: 100%;
-        /* display: -webkit-inline-box; */
-        /* display: flex; */
-        /* display: -webkit-flex; */
-        /* position: absolute; */
-        /* -webkit-align-content: center; */
-        /* -webkit-align-items: center; */
-        /* -webkit-align-self: center; */
     }
 
     .check-box-1 input[type='checkbox'] {
@@ -6038,7 +6033,7 @@ display: -webkit-box;
         margin-right: 1.5%;
         /* position: absolute; */
         /* top: 90%; */
-        padding: 0 0px;
+        padding: 0 0;
     }
 
     .label_checkbox {
@@ -6187,7 +6182,7 @@ display: -webkit-box;
     }
 
     .t_reactagle-1 {
-        margin: 1.3%;
+        margin: 1.8%;
         font-family: "NtSomic-Medium", Helvetica;
         font-size: 3.2vw;
     }

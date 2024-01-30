@@ -147,11 +147,11 @@ img.i_tel1.i_tel4 {
     width: 100%;
     cursor: pointer;
     position: absolute;
-    top: 73%;
+    top: 60%;
     left: 0%;
     -webkit-box-pack: center;
     padding: 20% 0 5% 0;
-    z-index: 2;
+    z-index: -1;
     height: 160%;
     justify-items: center;
 }
@@ -439,7 +439,7 @@ p.rso_text_down2 {
 }
 
 .form-3 .check-box-1 {
-    margin: 0;
+    margin: 2% 0;
 }
 
 .form-3 .label_checkbox {}
@@ -1111,7 +1111,7 @@ position: absolute;
 }
 
 .check-box-1-center {
-    margin: 0 11% !important;
+    margin: 2% 11% !important;
 }
 
 .b-box-center {
@@ -1885,6 +1885,7 @@ position: absolute;
     border-color: #d4d4d4;
     /* margin: 0 3% 0 0; */
     vertical-align: bottom;
+    margin: 0;
     margin-right: 3%;
 }
 
@@ -1894,6 +1895,7 @@ position: absolute;
     text-align: center;
     letter-spacing: 0;
     font-size: 0.8vw;
+    margin: 0;
 }
 
 .image-1 {
@@ -2049,4 +2051,8 @@ width: 27%;
 .p_images2 {
     width: 25%;
     margin-right: 0%;
+}
+
+.b_send:hover, .b_tel:hover, .b_svz:hover, .b_napr:hover, .drp_menu{
+    background-color: #34d0d0;
 }
