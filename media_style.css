@@ -5150,7 +5150,7 @@ display: -webkit-box;
 
     .group-2 .column {
         display: grid;
-        width: 65%;
+        width: 95%;
         margin-right: 0%;
         position: static;
     }
@@ -7015,7 +7015,7 @@ display: -webkit-box;
     }
 
     .q-column2 {
-        width: 65%;
+        width: 90%;
         margin-left: 0%;
     }
 
@@ -7123,7 +7123,7 @@ display: -webkit-box;
 
     .group-2 .column {
         display: grid;
-        width: 65%;
+        width: 90%;
         margin-right: 0%;
     }
 

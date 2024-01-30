@@ -1869,7 +1869,7 @@ position: absolute;
 }
 
 .check-box-1 {
-    display: -webkit-inline-box;
+    display: -webkit-box;
     font-family: "NtSomic-Regular", sans-serif;
     margin: 1% 0;
     float: left;
