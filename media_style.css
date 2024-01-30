@@ -6020,6 +6020,7 @@ display: -webkit-box;
         width: 100%;
         display: -webkit-inline-box;
         display: flex;
+        display: -webkit-flex;
         /* position: absolute; */
     }
 
