@@ -2056,3 +2056,12 @@ width: 27%;
 .b_send:hover, .b_tel:hover, .b_svz:hover, .b_napr:hover, .drp_menu{
     background-color: #34d0d0;
 }
+.b_br{
+    display: none;
+}
+
+a[href^="tel"] {
+    color: inherit; /* Inherit text color of parent element. */
+    text-decoration: none; /* Remove underline. */
+    /* Additional css `propery: value;` pairs here */
+  }
