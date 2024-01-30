@@ -6019,9 +6019,12 @@ display: -webkit-box;
         margin: 1% 0;
         width: 100%;
         display: -webkit-inline-box;
-        display: flex;
-        display: -webkit-flex;
+        /* display: flex; */
+        /* display: -webkit-flex; */
         /* position: absolute; */
+        -webkit-align-content: center;
+        -webkit-align-items: center;
+        -webkit-align-self: center;
     }
 
     .check-box-1 input[type='checkbox'] {
