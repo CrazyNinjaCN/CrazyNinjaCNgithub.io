@@ -1873,6 +1873,7 @@ position: absolute;
     font-family: "NtSomic-Regular", sans-serif;
     margin: 1% 0;
     float: left;
+    -webkit-box-pack: center;
 }
 
 .check-box-1 input[type='checkbox'] {
