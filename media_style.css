@@ -110,13 +110,15 @@
     
     .dop_container1 {
         width: 30%;
-        margin-right: 3%;
+        margin-right: 35%;
+        margin-left: 0%;
     }
     
     .dop_container2 {
         width: 30%;
-        margin-left: 3%;
+        margin-right: 35%;
         margin-top: 5%;
+        margin-left: 0%;
     }
     
     .b_tel:hover .drp_menu {
@@ -156,19 +158,19 @@
     
     .drp_menu {
         background-color: #34d0d0;
-        border-radius: 0 0 12% 12% / 0 0 12% 12%;
+        border-radius: 12% / 10%;
         border-color: #00ffff00;
         box-sizing: border-box;
         display: none;
         width: 100%;
         cursor: pointer;
         position: absolute;
-        top: 70%;
+        top: 0%;
         left: 0%;
         -webkit-box-pack: center;
-        padding: 20% 0 5% 0;
+        padding: 55% 0 5% 0;
         z-index: -1;
-        height: 187%;
+        height: 210%;
         justify-items: center;
     }
     
@@ -1376,11 +1378,11 @@ justify-content: space-evenly;
     .card_front {
         z-index: 1;
         backface-visibility: hidden;
-        transition: transform .3s cubic-bezier(.2, .85, .4, 1.275);
+        -webkit-transition: transform .3s cubic-bezier(.2, .85, .4, 1.275);
     }
     
     .card_front1 {
-        transform: rotate(-1.719deg);
+        -webkit-transform: rotate(-1.719deg);
     }
     
     .card_front2 {
@@ -1410,14 +1412,14 @@ justify-content: space-evenly;
         position: absolute !important;
         top: 0;
         backface-visibility: hidden;
-        transform: rotateY(-180deg);
+        -webkit-transform: rotateY(-180deg);
         -webkit-transform: rotateY(-180deg);
         transition: transform .3s cubic-bezier(.2, .85, .4, 1.275);
         -webkit-transition: transform .3s cubic-bezier(.2, .85, .4, 1.275);
     }
     
     .card:hover .card_back1 {
-        transform: rotate(-1.719deg) rotateY(0deg) !important;
+        -webkit-transform: rotate(-1.719deg) rotateY(0deg) !important;
         -webkit-transform: rotate(-1.719deg) rotateY(0deg) !important;
         z-index: 2;
     }
@@ -1453,7 +1455,7 @@ justify-content: space-evenly;
     }
     
     .card:hover .card_front {
-        transform: rotateY(180deg) !important;
+        -webkit-transform: rotateY(180deg) !important;
         z-index: -1;
     }
     
@@ -1941,7 +1943,7 @@ justify-content: space-evenly;
     
     .form-3 .drp_menu {
     
-top: 65%;
+top: 0%;
     
 left: 0%;
     
@@ -1949,23 +1951,25 @@ width: 100%;
     
 z-index: -1;
     
-padding: 20% 0 5% 0%;
+padding: 65% 0 5% 0%;
     }
     
     .form-3 .dop_container1 {
     
-    width: 25%;
+width: 35%;
     
-    margin-right: 5%;
+margin-right: 35%;
     }
     
     .form-3 .dop_container2 {
     
-    width: 25%;
+width: 35%;
     
-    margin-left: 5%;
+margin-left: 0%;
     
-    margin-top: 5%;
+margin-top: 5%;
+    
+margin-right: 30%;
     }
     
     .form-3 .b_container {
@@ -1976,31 +1980,35 @@ padding: 14% 0 0% 12%;
     
     .form-2 .drp_menu {
     
-    top: 55%;
+top: 0%;
     
-    left: 0%;
+left: 0%;
     
-    width: 100%;
+width: 100%;
     
-    z-index: -1;
+z-index: -1;
     
-    padding: 20% 0 5% 0%;
+padding: 50% 0 5% 0%;
     
-    height: 160%;
+height: 225%;
     }
     
     .form-2 .dop_container1 {
     
-    width: 25%;
+width: 27%;
     
-    margin-right: 5%;
+margin-right: 40%;
+    
+margin-left: 0;
     }
     
     .form-2 .dop_container2 {
     
-    width: 25%;
+width: 27%;
     
-    margin-left: 5%;
+margin-left: 0;
+    
+margin-right: 40%;
     }
     
     .form-2 .b_container {
@@ -2022,11 +2030,11 @@ width: 27%;
         border-radius: 44px;
         width: 100%;
         position: relative;
-        overflow: hidden;
+        /* overflow: hidden; */
         padding-bottom: 10.5%;
-        --smooth-corners: 30, 30;
-        mask-image: paint(smooth-corners);
-        -webkit-mask-image: paint(smooth-corners);
+        /* --smooth-corners: 30, 30; */
+        /* mask-image: paint(smooth-corners); */
+        /* -webkit-mask-image: paint(smooth-corners); */
     }
     
     .rectangle-1 {
@@ -2206,18 +2214,20 @@ text-align: -webkit-center;
     
     .dop_container1 {
         width: 30%;
-        margin-right: 3%;
+        margin-right: 35%;
+        margin-left: 0%;
     }
     
     .dop_container2 {
         width: 30%;
-        margin-left: 3%;
+        margin-left: 0%;
         margin-top: 5%;
+        margin-right: 35%;
     }
     
     .b_tel:hover .drp_menu {
         display: grid;
-        height: 200%;
+        height: 280%;
     }
     
     img.i_tel1.i_tel3 {
@@ -2253,17 +2263,17 @@ text-align: -webkit-center;
     
     .drp_menu {
         background-color: #34d0d0;
-        border-radius: 0 0 12% 12% / 0 0 12% 12%;
+        border-radius: 12% / 8%;
         border-color: #00ffff00;
         box-sizing: border-box;
         display: none;
         width: 100%;
         cursor: pointer;
         position: absolute;
-        top: 70%;
+        top: 0%;
         left: 0%;
         -webkit-box-pack: center;
-        padding: 20% 0 5% 0;
+        padding: 55% 0 5% 0;
         z-index: -1;
         height: 187%;
         justify-items: center;
@@ -3477,11 +3487,11 @@ margin-top: 3%;
     .card_front {
         z-index: 1;
         backface-visibility: hidden;
-        transition: transform .3s cubic-bezier(.2, .85, .4, 1.275);
+        -webkit-transition: transform .3s cubic-bezier(.2, .85, .4, 1.275);
     }
     
     .card_front1 {
-        transform: rotate(-1.719deg);
+        -webkit-transform: rotate(-1.719deg);
     }
     
     .card_front2 {
@@ -3511,14 +3521,14 @@ margin-top: 3%;
         position: absolute !important;
         top: 0;
         backface-visibility: hidden;
-        transform: rotateY(-180deg);
         -webkit-transform: rotateY(-180deg);
-        transition: transform .3s cubic-bezier(.2, .85, .4, 1.275);
+        -webkit-transform: rotateY(-180deg);
+        -webkit-transition: transform .3s cubic-bezier(.2, .85, .4, 1.275);
         -webkit-transition: transform .3s cubic-bezier(.2, .85, .4, 1.275);
     }
     
     .card:hover .card_back1 {
-        transform: rotate(-1.719deg) rotateY(0deg) !important;
+        -webkit-transform: rotate(-1.719deg) rotateY(0deg) !important;
         -webkit-transform: rotate(-1.719deg) rotateY(0deg) !important;
         z-index: 2;
     }
@@ -3554,7 +3564,7 @@ margin-top: 3%;
     }
     
     .card:hover .card_front {
-        transform: rotateY(180deg) !important;
+        -webkit-transform: rotateY(180deg) !important;
         z-index: -1;
     }
     
@@ -4045,31 +4055,33 @@ margin-top: 3%;
     
     .form-3 .drp_menu {
     
-    top: 58%;
+top: 0%;
     
-    left: 0%;
+left: 0%;
     
-    width: 100%;
+width: 100%;
     
-    z-index: -1;
+z-index: -1;
     
-    padding: 20% 0 5% 0%;
+padding: 65% 0 5% 0%;
     }
     
     .form-3 .dop_container1 {
     
-    width: 25%;
+width: 35%;
     
-    margin-right: 5%;
+margin-right: 35%;
     }
     
     .form-3 .dop_container2 {
     
-    width: 25%;
+width: 35%;
     
-    margin-left: 5%;
+margin-left: 0%;
     
-    margin-top: 5%;
+margin-top: 5%;
+    
+margin-right: 30%;
     }
     
     .form-3 .b_container {
@@ -4080,7 +4092,7 @@ padding: 12% 0 0% 12%;
     
     .form-2 .drp_menu {
     
-top: 50%;
+top: 0%;
     
 left: 0%;
     
@@ -4088,23 +4100,27 @@ width: 100%;
     
 z-index: -1;
     
-padding: 20% 0 5% 0%;
+padding: 50% 0 5% 0%;
     
 height: 195%;
     }
     
     .form-2 .dop_container1 {
     
-    width: 25%;
+width: 25%;
     
-    margin-right: 5%;
+margin-right: 45%;
+    
+margin-left: 0%;
     }
     
     .form-2 .dop_container2 {
     
-    width: 25%;
+width: 25%;
     
-    margin-left: 5%;
+margin-left: 0%;
+    
+margin-right: 45%;
     }
     
     .form-2 .b_container {
@@ -4126,11 +4142,11 @@ width: 27%;
         border-radius: 44px;
         width: 100%;
         position: relative;
-        overflow: hidden;
+        /* overflow: hidden; */
         padding-bottom: 10.5%;
-        --smooth-corners: 30, 30;
-        mask-image: paint(smooth-corners);
-        -webkit-mask-image: paint(smooth-corners);
+        /* --smooth-corners: 30, 30; */
+        /* mask-image: paint(smooth-corners); */
+        /* -webkit-mask-image: paint(smooth-corners); */
     }
     
     .rectangle-1 {
@@ -4254,20 +4270,26 @@ left: 51.5%;
 
     .dop_container1 {
         width: 30%;
-        margin-right: 3%;
+        margin-right: 40%;
         /* height: 100%; */
+        margin-left: 0%;
     }
 
     .dop_container2 {
         width: 30%;
-        margin-left: 3%;
-        height: 0%;
+        margin-left: 0%;
+        margin-top: 5%;
+        margin-right: 40%;
+        /* height: 0%; */
     }
 
     .b_tel:hover .drp_menu {
         display: grid;
-        padding: 16% 0 0 0;
-        height: 180%;
+        padding: 60% 0 0 0;
+        height: 250%;
+        /* align-items: center; */
+        /* justify-items: center; */
+        /* justify-content: start; */
     }
 
     img.i_tel1.i_tel3 {
@@ -4309,14 +4331,14 @@ left: 51.5%;
 
     .drp_menu {
         background-color: #34d0d0;
-        border-radius: 0 0 12% 12% / 0 0 12% 12%;
+        border-radius: 12% / 8%;
         border-color: #00ffff00;
         box-sizing: border-box;
         display: none;
         width: 100%;
         cursor: pointer;
         position: absolute;
-        top: 65%;
+        top: 0%;
         left: 0%;
         -webkit-box-pack: center;
         padding: 13% 0 5% 0;
@@ -5499,11 +5521,11 @@ display: -webkit-box;
     .card_front {
         z-index: 1;
         backface-visibility: hidden;
-        transition: transform .3s cubic-bezier(.2, .85, .4, 1.275);
+        -webkit-transition: transform .3s cubic-bezier(.2, .85, .4, 1.275);
     }
 
     .card_front1 {
-        transform: rotate(-1.719deg);
+        -webkit-transform: rotate(-1.719deg);
     }
 
     .card_front2 {
@@ -5533,12 +5555,12 @@ display: -webkit-box;
         position: absolute !important;
         top: 0;
         backface-visibility: hidden;
-        transform: rotateY(-180deg);
-        transition: transform .3s cubic-bezier(.2, .85, .4, 1.275);
+        -webkit-transform: rotateY(-180deg);
+        -webkit-transition: transform .3s cubic-bezier(.2, .85, .4, 1.275);
     }
 
     .card:hover .card_back1 {
-        transform: rotate(-1.719deg) rotateY(0deg) !important;
+        -webkit-transform: rotate(-1.719deg) rotateY(0deg) !important;
         z-index: 2;
     }
 
@@ -5573,7 +5595,7 @@ display: -webkit-box;
     }
 
     .card:hover .card_front {
-        transform: rotateY(180deg) !important;
+        -webkit-transform: rotateY(180deg) !important;
         z-index: -1;
     }
 
@@ -6083,34 +6105,39 @@ display: -webkit-box;
 
     .form-3 .drp_menu {
 
-        top: 65%;
+top: 0%;
 
-        left: 0%;
+left: 0%;
 
-        width: 100%;
+width: 100%;
 
-        z-index: -1;
+z-index: -1;
 
-        padding: 15% 0 5% 0%;
+padding: 15% 0 5% 0%;
 
-        height: 175%;
+height: 185%;
 
-        border-radius: 0 0 14% 14% / 0 0 12% 12%;
-    }
+border-radius: 12% / 8%;
+
+}
 
     .form-3 .dop_container1 {
 
-        width: 30%;
+width: 30%;
 
-        margin-right: 5%;
-    }
+margin-right: 30%;
+
+}
 
     .form-3 .dop_container2 {
 
-        width: 30%;
+width: 30%;
 
-        margin-left: 5%;
-    }
+margin-left: 0%;
+
+margin-right: 30%;
+
+}
 
     .form-3 .b_container {
 
@@ -6122,37 +6149,51 @@ display: -webkit-box;
 
     .form-2 .drp_menu {
 
-        top: 65%;
+top: 0%;
 
-        left: 0%;
+left: 0%;
 
-        width: 100%;
+width: 100%;
 
-        z-index: -1;
+z-index: -1;
 
-        padding: 15% 0 5% 0%;
-    }
+height: 215%;
+
+padding: 10% 0 5% 0%;
+
+}
 
     .form-2 .dop_container1 {
 
-        width: 30%;
+width: 27%;
 
-        margin-right: 5%;
-    }
+margin-left: 0%;
+
+/* position: relative; */
+
+margin-right: 40%;
+
+}
 
     .form-2 .dop_container2 {
 
-        width: 30%;
+width: 27%;
 
-        margin-left: 5%;
-    }
+margin-left: 0%;
+
+/* position: relative; */
+
+margin-right: 40%;
+
+}
 
     .form-2 .b_container {
 
-        padding: 15% 0 0 15%;
+padding: 15% 0 0 15%;
 
-        width: 30%;
-    }
+width: 27%;
+
+}
 
     .block_top {
         text-align: center;
@@ -6166,11 +6207,11 @@ display: -webkit-box;
         border-radius: 44px;
         width: 100%;
         position: relative;
-        overflow: hidden;
+        /* overflow: hidden; */
         padding-bottom: 12.5%;
-        --smooth-corners: 30, 30;
-        mask-image: paint(smooth-corners);
-        -webkit-mask-image: paint(smooth-corners);
+        /* --smooth-corners: 30, 30; */
+        /* mask-image: paint(smooth-corners); */
+        /* -webkit-mask-image: paint(smooth-corners); */
     }
 
     .rectangle-1 {

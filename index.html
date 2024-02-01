@@ -13,6 +13,7 @@
   <script src="popup_menu.js"></script>
   <script src="slider.js"></script>
   <script src="phone.js"></script>
+  <script src="reveal.js"></script>
   <script>
     if (CSS && 'paintWorklet' in CSS) CSS.paintWorklet.addModule('https://unpkg.com/smooth-corners')
   </script>
@@ -24,10 +25,14 @@
   <div class="content" id="content">
     <div class="block_top">
       <div class="frame-1">
-        <div class="rectangle-1">
-          <p class="t_reactagle-1 ">Заявка в Российские студенческие отряды</p>
-        </div>
-        <img class="image-3" src="img/logo-2.png"></img>
+        <a style="color: black;" href="">
+          <div class="rectangle-1 a-up">
+            <p class="t_reactagle-1 ">Заявка в Российские студенческие отряды</p>
+          </div>
+        </a>
+        <a href="">
+          <img class="image-3 a-up" src="img/logo-2.png"></img>
+        </a>
       </div>
     </div>
 
@@ -35,15 +40,15 @@
       <div class="frame-2">
         <div class="ellipse-1"></div>
         <!--<img class="image-2" src="img/logo-1.png">-->
-        <div class="rso_logo">
+        <div class="rso_logo a-up">
           <p class="rso_text-up">Работа<br>для студента</p>
           <div class="rso_text_down"><img src="img/vector2.png" class="rso_image">
             <p class="rso_text_down1">вместе с </p>
             <p class="rso_text_down2">РСО</p>
           </div>
         </div>
-        <img class="image-1" src="img/image1.png">
-        <form class="form-1">
+        <img class="image-1 a-up" src="img/image1.png">
+        <form class="form-1 a-up">
           <div class="">
             <input class="inp-name " placeholder="Введите свое имя">
             <input class="inp-contact " placeholder="Ваш телефон" autocomplete="on">
@@ -73,15 +78,15 @@
 
 
 
-            <button class="b_send ">Нажми и мы с тобой свяжемся</button>
+            <button class="b_send">Нажми, и мы с тобой свяжемся</button>
           </div>
           <div class="check-box-1">
             <input type="checkbox" id="" name="">
             <p class="label_checkbox">Даю согласие на обработку персональных данных</p>
           </div>
         </form>
-        <p class="text-wrapper ">Номер для связи с нами: 8 (800) 770-01-17</p>
-        <div class="box-social">
+        <p class="text-wrapper a-up">Номер для связи с нами: 8 (800) 770-01-17</p>
+        <div class="box-social a-up">
           <div class="b_telegram"><a href="https://t.me/rso_official"><img class="i_telegram"
                 src="img/i_telegram.png"></a></div>
           <div class="b_chain"><a href="https://трудкрут.рф"><img class="i_chain" src="img/i_chain.png"></a></div>
@@ -89,40 +94,41 @@
         </div>
       </div>
     </div>
+
     <div class="block">
-      <div class="frame-3">
+      <div class="frame-3 a-up">
         <div class="ellipse-3"></div>
-        <div class="group-1">
+        <div class="group-1 reveal">
           <p class="text-wrapper ">
             Российские студенческие отряды<br />— лучшее сообщество для молодых по версии Росмолодёжи!<br />
-            <br />Это место, где студенты<br /> могут найти работу на самых масштабных<br />проектах нашей страны.
+            <br />Это место, где студенты<br /> могут найти работу на самых масштабных<br />проектах нашей страны
           </p>
         </div>
-        <div class="group-2">
+        <div class="group-2 reveal">
           <div class="i_block-1">
-            <img class="g1-image1" src="img/g1-image1.png" />
-            <img class="g1-image4" src="img/g1-image4.png" />
+            <img class="g1-image1 reveal" src="img/g1-image1.png" />
+            <img class="g1-image4 reveal" src="img/g1-image4.png" />
           </div>
           <div class="i_block-2">
-            <img class="g1-image2" src="img/g1-image2.png" />
-            <img class="g1-image3" src="img/g1-image3.png" />
+            <img class="g1-image2 reveal" src="img/g1-image2.png" />
+            <img class="g1-image3 reveal" src="img/g1-image3.png" />
           </div>
         </div>
         <div class="ellipse-2"></div>
       </div>
     </div>
-    <div class="block">
-      <div class="frame-4">
+    <div class="block ">
+      <div class="frame-4 reveal">
         <div class="ellipse-4"></div>
-        <div class="group-1">
+        <div class="group-1 reveal">
           <p class="text-wrapper ">
             Мы работаем<br />по 7 направлениям деятельности
           </p>
         </div>
-        <div class="group-2 ">
+        <div class="group-2 reveal">
 
           <div class="g2-c1">
-            <div class="card card1">
+            <div class="card card1 reveal">
               <div class="g2-card1 g2-card card_front card_front1">
                 <img class="g2-card1-image" src="img/g2-image1.png" />
                 <div class="g2-card-text">Педагогическое<br />направление</div>
@@ -138,7 +144,7 @@
                 </div>
               </div>
             </div>
-            <div class="card card2">
+            <div class="card card2 reveal">
               <div class="g2-card2 g2-card card_front card_front2">
                 <img class="g2-card2-image" src="img/g2-image2.png" />
                 <div class="g2-card-text">Строительное<br />направление</div>
@@ -154,7 +160,7 @@
                 </div>
               </div>
             </div>
-            <div class="card card3">
+            <div class="card card3 reveal">
               <div class="g2-card3 g2-card card_front card_front3">
                 <img class="g2-card3-image" src="img/g2-image3.png" />
                 <div class="g2-card-text">Направление<br />сервиса и туризма</div>
@@ -170,7 +176,7 @@
                 </div>
               </div>
             </div>
-            <div class="card card4">
+            <div class="card card4 reveal">
               <div class="g2-card4 g2-card card_front card_front4">
                 <img class="g2-card4-image" src="img/g2-image4.png" />
                 <div class="g2-card-text">Направление<br />проводников ЖД</div>
@@ -189,7 +195,7 @@
           </div>
 
           <div class="g2-c2">
-            <div class="card card5">
+            <div class="card card5 reveal">
               <div class="g2-card5 g2-card card_front card_front5">
                 <img class="g2-card5-image" src="img/g2-image5.png" />
                 <div class="g2-card-text">Сельскохозяйственное<br />направление</div>
@@ -205,7 +211,7 @@
                 </div>
               </div>
             </div>
-            <div class="card card6">
+            <div class="card card6 reveal">
               <div class="g2-card6 g2-card card_front card_front6">
                 <img class="g2-card6-image" src="img/g2-image6.png" />
                 <div class="g2-card-text">Медицинское<br />направление</div>
@@ -221,7 +227,7 @@
                 </div>
               </div>
             </div>
-            <div class="card card7">
+            <div class="card card7 reveal">
               <div class="g2-card7 g2-card card_front card_front7">
                 <img class="g2-card7-image" src="img/g2-image7.png" />
                 <div class="g2-card-text">Трудовые отряды<br />подростков</div>
@@ -240,7 +246,7 @@
             </div>
           </div>
         </div>
-        <div class="group-3">
+        <div class="group-3 reveal">
           <button class="b_napr " id="popup1">Выбрать направление</button>
         </div>
       </div>
@@ -248,97 +254,97 @@
 
 
     <div class="block">
-      <div class="frame-5">
-        <div class="group-1">
+      <div class="frame-5 reveal">
+        <div class="group-1 reveal">
           <P class="text-up ">Места нашей работы</P>
           <P class="text-down ">&emsp;&nbsp;&nbsp;&nbsp;&nbsp;и это далеко не всё</P>
         </div>
 
-        <div class="group-2">
+        <div class="group-2 reveal">
           <div class="column column1">
-            <img class="column-image" src="img/g3-image1.png"></img>
-            <img class="column-image" src="img/g3-image2.png"></img>
-            <img class="column-image" src="img/g3-image3.png"></img>
+            <img class="column-image reveal" src="img/g3-image1.png"></img>
+            <img class="column-image reveal" src="img/g3-image2.png"></img>
+            <img class="column-image reveal" src="img/g3-image3.png"></img>
           </div>
           <div class="column column2">
-            <img class="column-image" src="img/g3-image4.png"></img>
-            <img class="column-image" src="img/g3-image5.png"></img>
-            <img class="column-image" src="img/g3-image6.png"></img>
+            <img class="column-image reveal" src="img/g3-image4.png"></img>
+            <img class="column-image reveal" src="img/g3-image5.png"></img>
+            <img class="column-image reveal" src="img/g3-image6.png"></img>
           </div>
           <div class="column column3">
-            <img class="column-image" src="img/g3-image7.png"></img>
-            <img class="column-image" src="img/g3-image8.png"></img>
-            <img class="column-image" src="img/g3-image9.png"></img>
+            <img class="column-image reveal" src="img/g3-image7.png"></img>
+            <img class="column-image reveal" src="img/g3-image8.png"></img>
+            <img class="column-image reveal" src="img/g3-image9.png"></img>
           </div>
           <div class="column column4">
-            <img class="column-image" src="img/g3-image10.png"></img>
-            <img class="column-image" src="img/g3-image11.png"></img>
-            <img class="column-image" src="img/g3-image12.png"></img>
+            <img class="column-image reveal" src="img/g3-image10.png"></img>
+            <img class="column-image reveal" src="img/g3-image11.png"></img>
+            <img class="column-image reveal" src="img/g3-image12.png"></img>
           </div>
         </div>
 
-        <div class="group-3">
+        <div class="group-3 reveal">
           <button class="b_svz " id="popup2">Связать с нами и узнать <br class="b_br"> о местах работы подробнее</button>
         </div>
       </div>
     </div>
 
     <div class="block">
-      <div class="frame-6">
-        <div class="group-1">
+      <div class="frame-6 reveal">
+        <div class="group-1 reveal">
           <P class="text-wrapper">Наши преимущества перед кадровыми агентствами</P>
         </div>
 
-        <div class="group-2">
+        <div class="group-2 reveal">
           <div class="q-column1">
-            <div class="que">
+            <div class="que reveal">
               <div class="que-block1">
                 <div class="ellipse-10"></div>Мы — движение студентов
               </div>
               <div class="que-block2">
-                В составе Российских студенческих отрядов работают школьники, студенты и молодые люди, которые
+                В составе Российских студенческих <br /> отрядов работают школьники,<br /> студенты и молодые люди, которые<br />
                 заинтересованы в поиске работы </div>
             </div>
-            <div class="que">
+            <div class="que reveal">
               <div class="que-block1">
-                <div class="ellipse-10"></div>Поддержка учебных заведений
+                <div class="ellipse-10"></div>Поддержка учебных <br /> заведений
               </div>
               <div class="que-block2">
-                Во многих учебных заведениях страны есть различные способы поддержки и поощрения участников студенческих
-                отрядов: стипендии и квоты, а также прохождение практики в рамках работы </div>
+                Во многих учебных заведениях страны <br /> есть различные способы поддержки <br /> и поощрения участников студенческих <br />
+                отрядов: стипендии и квоты, а также <br /> прохождение практики в рамках работы </div>
             </div>
-            <div class="que">
+            <div class="que reveal">
               <div class="que-block1">
                 <div class="ellipse-10"></div>Обучаем профессии
               </div>
               <div class="que-block2">
-                Перед трудоустройством на проект вы пройдёте обучение по тому направлению, которое выберете. А после
-                обучения можете получить сертификат о доп. образовании бесплатно </div>
+                Перед трудоустройством на проект <br /> вы пройдёте обучение по тому <br /> направлению, которое выберете.<br /> А после
+                обучения можете получить <br /> сертификат о доп. образовании <br /> бесплатно </div>
             </div>
           </div>
           <div class="q-column2">
-            <div class="que">
+            <div class="que reveal">
               <div class="que-block1">
                 <div class="ellipse-10"></div>Работа только в каникулы
               </div>
               <div class="que-block2">
-                Студенту часто важно учиться и не отвлекаться на работу. С нами у вас есть возможность работать только
-                во время каникул, а также получать поддержку от учебного заведния </div>
+                Студенту часто важно учиться <br /> и не отвлекаться на работу. С нами у <br /> вас есть возможность работать только <br />
+                во время каникул, а также получать <br /> поддержку от учебного заведния </div>
             </div>
-            <div class="que">
+            <div class="que reveal">
               <div class="que-block1">
                 <div class="ellipse-10"></div>Мы не только про работу
               </div>
               <div class="que-block2">
-                Так как в организации состоят молодые люди, вы точно найдете компанию единомышленников и заведёте друзей
+                Так как в организации состоят <br /> молодые люди, вы точно найдете <br /> компанию единомышленников <br /> и заведёте друзей
               </div>
             </div>
-            <div class="que">
+            <div class="que reveal">
               <div class="que-block1">
                 <div class="ellipse-10"></div>Путешествия
               </div>
               <div class="que-block2">
-                Студенты, работающие в студенческих отрядах, могут выбрать местом работы почти любой регион нашей страны
+                Студенты, работающие <br /> в студенческих отрядах, могут выбрать <br /> местом работы почти любой регион <br /> нашей страны
               </div>
             </div>
           </div>
@@ -348,13 +354,13 @@
     </div>
 
 
-    <div class="block">
-      <div class="frame-7">
-        <div class="group-1">
+    <div class="block ">
+      <div class="frame-7 reveal">
+        <div class="group-1 reveal">
           <P class="text-wrapper">Наши партнёры</P>
         </div>
 
-        <div class="group-2" id="slider">
+        <div class="group-2 reveal" id="slider">
           <div class="p_images p_images1">
            
             <div class="p_slide">
@@ -444,7 +450,7 @@
 
         </div>
 
-        <div class="group-3">
+        <div class="group-3 reveal">
           <div class="left" id="left"><img class="arrow-left" src="img/left.png"></img></div>
           <div class="ellipses-midle" id="ellipses">
             <div class="ellipse-11 ellipse-activate" id="s1"></div>
@@ -458,10 +464,10 @@
     </div>
 
     <div class="block">
-      <div class="frame-8">
-        <div class="group-1">
+      <div class="frame-8 reveal">
+        <div class="group-1 reveal">
           <div class="text-wrapper">Контакты:</div>
-          <div class="box-social-down">
+          <div class="box-social-down ">
             <div class="b_vk b_social">
               <a class="a_social-i" href="https://vk.com/rso_official">
                 <img class="i_vk-down i_social" src="img/i_vk.png">
@@ -505,7 +511,7 @@
           </div>
         </div>
 
-        <div class="group-2">
+        <div class="group-2 reveal">
           <form class="form-3">
             <div class="input-box">
               <input class="inp-name " placeholder="Введите свое имя">
@@ -537,7 +543,7 @@
                 </div>
               </div>
 
-              <button class="b_send ">Нажми и мы с тобой свяжемся</button>
+              <button class="b_send ">Нажми, и мы с тобой свяжемся</button>
             </div>
             <div class="check-box-1">
               <input type="checkbox" id="" name="" />
@@ -551,8 +557,8 @@
 
 
     <div class="block">
-      <div class="frame-9">
-        <div class="group-1">
+      <div class="frame-9 reveal">
+        <div class="group-1 reveal">
           <p class="text-wrapper">
             Молодёжная общероссийская общественная организация «Российские Студенческие Отряды» 105005, г. Москва, пер.
             Лефортовский, 8/1ИНН 7707490137 / КПП 770101001ОГРН 1117799010515р/с 40703810538040005371 ПАО «СБЕРБАНК» г.
@@ -568,12 +574,12 @@
 
 
   <div class="popup_overlay" id="popup_overlay">
-    <div class="popup_block" id="popup_block">
+    <div class="popup_block a-up" id="popup_block">
       <div class="frame-popup">
-        <div class="popup-up ">
+        <div class="popup-up a-up">
           <p>Ты можешь оставить свой контакт <br> и мы свяжемся с тобой удобным способом</p>
         </div>
-        <form class="form-2">
+        <form class="form-2 a-up">
           <div class="">
             <input class="inp-name " placeholder="Введите свое имя">
             <input class="inp-contact " placeholder="Ваш телефон">
@@ -596,14 +602,14 @@
                 </div>
               </div>
             </div>
-            <button class="b_send ">Нажми и мы с тобой свяжемся</button>
+            <button class="b_send ">Нажми, и мы с тобой свяжемся</button>
           </div>
           <div class="check-box-1 check-box-1-center">
             <input type="checkbox" id="" name="" />
             <p class="label_checkbox">Даю согласие на обработку персональных данных</p>
           </div>
         </form>
-        <div class="popup-down">
+        <div class="popup-down a-up">
           <div class="popup-down-text">
             <p>Ты также можешь связаться самостоятельно</p>
           </div>
